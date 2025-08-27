@@ -393,3 +393,75 @@ small {
   padding: 8px 20px;
   text-decoration: none;
   }
+
+  /* Solusi Section */
+  .solusi-section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .solusi-title {
+    font-family: playfair-display;
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--brown-font-icon);
+    margin-top: 8rem;
+  }
+
+  .solusi-subtitle {
+    color: var(--wood-bg-font);
+    font-size: 19px;
+    margin-bottom: 6rem;
+  }
+
+  .solusi-box {
+    background-color: var(--wood-bg2);
+    border-radius: 10px;
+    text-align: center;
+    padding: 18px;
+    width: 190px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .solusi-box h3 {
+    font-family: song-myung;
+    font-size: 35px;
+    font-weight: 300;
+    color: var(--brown-font-icon);
+    margin-bottom: 8px;
+  }
+
+  .solusi-box p {
+    font-family: playfair-display;
+    font-size: 15px;
+    margin: 0;
+    color: var(--brown-font-icon);
+  }
+
+  .col-kanan {
+    padding-left: 12.50rem;
+  }
+
+  .col-kanan .row {
+    margin-bottom: 1.30rem;
+  }
+
+  .col-kanan .row .solusi-box2 {
+    margin-left: 3rem;
+  }
+
+  .col-kiri {
+    padding-right: 1rem;
+  }
+
+  .col-kiri .row {
+    gap: 0;
+  }
+
+  .solusi-section .row {
+    --bs-gutter-x: 1rem;
+  }
