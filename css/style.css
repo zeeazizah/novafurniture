@@ -898,10 +898,125 @@ small {
   transform: scale(1.03);
 }
 
+/* Testimoni Section */
+section.testimoni {
+  padding: 80px 20px;
+  text-align: center;
+  position: relative;
+}
+
+.testimoni h2 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.testimoni p.subtitle {
+  color: #9a7f63;
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+
+/* Card sesuai ukuran Figma */
+.testimonial-card {
+  border: 2px solid var(--wood-bg-font);
+  background: var(--white);
+  width: 335px;
+  height: 354px;
+  padding: 30px 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Gambar quote */
+.testimonial-quote {
+  width: 78px;
+  height: auto;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.testimonial-text {
+  font-family: 'plus-jakarta-sans', sans-serif;
+  font-size: 19px;
+  color: var(--brown-font-icon);
+  flex-grow: 1;
+  margin: 15px 0;
+  text-align: left;
+}
+
+.testimonial-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.testimonial-user img {
+  width: 96px;
+  height: 93px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-user .name {
+  font-family: playfair-display;
+  font-size: 21px;
+  color: var(--brown-font-icon);
+  margin: 0;
+  text-align: left;
+}
+
+.testimonial-user .role {
+  font-family: 'plus-jakarta-sans', sans-serif;
+  font-size: 19px;
+  color: var(--brown-font-icon);
+  margin: 0;
+  text-align: left;
+}
+
+/* Carousel arrows pakai gambar */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 60px;
+  height: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  opacity: 1;
+}
+
+.carousel-control-prev img,
+.carousel-control-next img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.carousel-control-prev {
+  left: -80px; /* supaya tidak nabrak card */
+}
+
+.carousel-control-next {
+  right: -80px;
+}
+
+@media (max-width: 992px) {
+  .carousel-control-prev {
+    left: -40px;
+  }
+  .carousel-control-next {
+    right: -40px;
+  }
+}
+
+
 /* Katalog Section */
 .catalog-section {
   padding: 60px 0;
 }
+
 .catalog-title {
   color: var(--brown-font-icon);
   font-weight: 400;
